@@ -160,7 +160,8 @@ body {
     font-size: 14px;
   }
 
-  .progress, .hashtag {
+  .progress,
+  .hashtag {
     font-size: 14px;
   }
 
@@ -175,11 +176,20 @@ body {
     padding: 18px;
   }
 
-  .goal-text, .progress, .hashtag {
+  .goal-text,
+  .progress,
+  .hashtag {
     font-size: 15px;
   }
 
   .add-goal {
     font-size: 16px;
+  }
+
+  dialog {
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   }
 }
